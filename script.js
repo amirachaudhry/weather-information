@@ -72,14 +72,3 @@ document.getElementById('searchButton').addEventListener('click' , function() {
     })
 
 })
-
-
-
-
-
-// fetch('https://api.openweathermap.org/data/2.5/weather?q=germany&appid=c31721564b6a379f385d69f84b914678&units=metric')
-// .then(function(response) {
-//     return response.json();
-// }).then(function(jsonData) {
-//     console.log(jsonData);
-// })

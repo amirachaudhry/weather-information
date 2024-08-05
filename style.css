@@ -1,0 +1,70 @@
+#weatherImage {
+    width:30%;
+    clear: both;
+    padding-top: 20px;
+}
+
+
+#windImage {
+    width: 10%;
+    height: 90%;
+}
+.container {
+    text-align: center;
+}
+
+#searchContainer {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+#weatherBox {
+    width:30%;
+    height: 40%;
+    border: 3px solid;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(47, 47, 148);
+    overflow: hidden;
+    display: none;
+
+}
+
+body {
+    color: white;
+    background-color: rgb(113, 159, 215);
+}
+
+h2 {
+    padding-top: 10px;
+    color:white;
+    margin: 0 0 20px 0;
+    font-size: 60px;
+}
+
+#windSpeed {
+    display: inline-block;
+    
+}
+
+h3 {
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+
+#windImage, .windSpeed {
+    display: inline;
+}
+
+.windSpeed {
+    width: 50%;
+}
+
+.humidity, .windContainer {
+    width: 50%;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Information</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <h2>Current Weather:</h2>
+    <div id="searchContainer">
+      <input type="text" id="search" placeholder="Type in location.." />
+      <button id="searchButton" type="submit">Search</button>
+    </div>
+
+    <div id="weatherBox">
+      <img id="weatherImage" src="images/cloud.png" />
+      <p id="temp">10<span>°C</span></p>
+      <p id="description">Cloudy</p>
+
+
+    <div class="humidity">
+      <p id= "humidityValue"> 30<span>%</span></p>
+      <h3>Humidity</h3>
+    </div>
+      
+    <div class="windContainer">
+      <img id="windImage" src="images/wind.png" />
+      <p id="windSpeed">5<span> Km/h</span></p>
+      <h3>Wind</h3>
+    </div>
+
+  </div>
+  </div>
+
+
+    <script type="module" src="script.js" type="text/javascript"></script>
+  </body>
+</html>
